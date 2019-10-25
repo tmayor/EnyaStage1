@@ -1,0 +1,60 @@
+.App{
+  height: auto;
+  background: #6a3093;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 5%;
+  padding-bottom: 15%;
+
+
+}
+.form_card, .table-card{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+  color: #fff !important;
+  margin-bottom: 5%;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+form{
+  padding: 5%;
+  background: #fff;
+  border-radius: 13px;
+}
+.form-row{
+  margin-top: 3%;
+}
+.btn-primary{
+  background: #6a3093 !important;
+  border: none !important;
+}
+label{
+  color: #aaa;
+}
+.form-control{
+    border: none !important;
+    height: 40px;
+    border-bottom: 1px solid #6a3093 !important;
+}
+.form-control:focus {
+  border: none !important;
+   border-bottom: 3px solid #6a3093 !important;
+   transition:  all 0.5s;
+}
+.table{
+  margin-top: 5%;
+  padding: 5%;
+  background: #fff;
+  border-radius: 13px;
+}
+.identifier{
+  background: #6a3093;
+  font-size: 20px;
+  padding: 5px;
+text-transform: capitalize !important;
+color: #fff;
+}
